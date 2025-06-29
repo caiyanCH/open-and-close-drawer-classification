@@ -4,7 +4,7 @@ This repository contains code and data for classifying robot manipulation action
 
 ## Project Structure
 ├── data/  # Sample processed files are included here.  
-          # Note: The full merged-drawer.csv file is too large to upload to GitHub.
+           # Note: The full merged-drawer.csv file is too large to upload to GitHub.
 
 ├── notebooks/ # Jupyter notebooks for analysis and visualization
 
