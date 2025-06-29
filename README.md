@@ -4,9 +4,13 @@ This repository contains code and data for classifying robot manipulation action
 
 ## Project Structure
 ├── data/ # Sample processed CSVs (open/close drawer)
+
 ├── notebooks/ # Jupyter notebooks for analysis and visualization
+
 ├── src/ # Python scripts for feature extraction and model training
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # Project description
 
 
