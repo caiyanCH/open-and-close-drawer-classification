@@ -3,20 +3,17 @@
 This repository contains code and data for classifying robot manipulation actions (open vs. close drawer) based on the PhysicalAI Robotics Manipulation in the Kitchen dataset. We trained and evaluated classical machine learning models using episode-level statistical features derived from robot hand trajectories and object state data.
 
 ## Project Structure
-├── data/ # Sample processed CSVs (open/close drawer)
+├── data/  # Sample processed files are included here.  
+          # Note: The full merged-drawer.csv file is too large to upload to GitHub.
 
 ├── notebooks/ # Jupyter notebooks for analysis and visualization
-
-├── src/ # Python scripts for feature extraction and model training
-
-├── requirements.txt # Python dependencies
 
 └── README.md # Project description
 
 
 ## Task Description
 
-The classification task distinguishes between **open drawer** and **close drawer** actions using robot demonstration data. Models were trained using episodes from the drawer task and tested on both seen (drawer) and unseen tasks (e.g., fridge, cabinet).
+The classification task distinguishes between **open drawer** and **close drawer** actions using robot demonstration data. Models were trained using episodes from the drawer task and tested on both seen (drawer) and unseen tasks (e.g., fridge, cabinet,dishwasher).
 
 ## Features
 
